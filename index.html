@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Hive_Chart - Vaccines - rotate add labels</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <meta charset="utf-8">
+  <div class="sectionOne">
+    <h2>294 schools lie above Herd Immunity</h2>
+    <p>Across the 778 elementary schools in Oklahoma with vaccination records or exemption records on File only 294 have a vaccination rate high enough for herd immunity: the vaccination rate needed to protect those who are immunocompromised from diseases such as measles, mumps, and rubella. This includes only <span class="highlight private_hl" onclick="showPrivate()">33 percent of private schools</span> in the state. Oklahoma City school district, one of the largest school districts in the state has <span class="highlight OKCity_hl" onclick="showOKCity()">20 of its 54</span> elementary schools within herd immunity range and Tulsa (second largest) only has <span class="highlight TULSA_hl" onclick="showTulsa()">7 of its 50</span> Elementary schools at 95 percent or higher.</p>
+  </div>
+  <div class="hiveChart_container">
+    <p><span class="highlight">Click on highlighted text to filter chart</span> </p>
+    <p>Each circle represents one school.<br/> Larger circles represent schools with more Kindergarteners<br/> with Vaccination Record or Exemption Record on File</p>
+    <svg viewBox="0 0 200 190" preserveAspectRatio="xMinYMin slice" width="100%" height="100%" style="width: 100%; overflow: hidden;"><svg width="200" height="190"></svg></svg>
+  </div>
+
+  <div class="sectionOne">
+  <h2>This leaves 484 schools at risk...</h2>
+    <p>392 schools lie within the 80-95% range. This leaves roughly  students below the national average of 94% and _____ above Oklahoma’s average of 89.9%. These schools comprise 51 percents of all students in the state and <span class="highlight private_hl_2" onclick="showPrivate2()">45 percent of all private school students.</span></p>
+    </div>
+  <div class="hiveChart_container3">
+<svg viewBox="0 0 200 300" preserveAspectRatio="xMinYMin slice" width="100%" height="100%" style="width: 100%; overflow: hidden;"><svg width="200" height="300"></svg></svg>
+</div>
+
+  <div class="sectionOne">
+  <h2>92 schools lies below 80 percent<br/>
+      and 6 below 50 percent</h2>
+    <p>The recent measles outbreak in New York and the increase in whooping cough within Oklahoma in 2016 were reported to take place within tight knit communities. A similar pattern can be seen within the schools that fall below the 80 percent vaccination rate. The median class size doe the 80 percent and below range  is around 38.5 students compared to the the state median of 55 students. Often lack of vaccination is due to exemption, Oklahoma allows for medical, religious, or personal exemptions according to the Oklahoma Health Department, but at least <span class="highlight exempt_hl" onclick="no_exempion()">49 schools</span> below the 80% mark had zero exemptions.</p>
+    </div>
+  <div class="hiveChart_container4">
+<svg viewBox="0 0 200 350" preserveAspectRatio="xMinYMin slice" width="100%" height="100%" style="width: 100%; overflow: hidden;"><svg width="200" height="350"></svg></svg>
+</div>
+
+  <div class="details">
+  <p>** Up to date for all vaccines is defined as 4 or 5 doses of DTaP, 3 or 4 doses of Polio, 2 or more doses of  MMR, 3 or more doses of Hep B, 2 or more doses of Hep A, and 1 or more doses of Varicella administered according to recommended age and intervals.<br/><br/> 
+***Exemption defined as documentation on file for a vaccine exemption to one or more antigens. There are three different types of exemptions: medical, religious and personal. <br/><br/> 
+
+815 public, private, and charter schools in Oklahoma completed the kindergarten survey in 2017-18. Schools that did not complete the survey are not listed. </p>
+    </div>
+
+<script src="https://d3js.org/d3.v4.min.js"></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
