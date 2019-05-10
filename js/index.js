@@ -1,3 +1,8 @@
+var tooltip2 = d3
+  .select(".text_generate")
+  .append("div")
+  .attr("class", "toolTip2");
+
 var legend_svg = d3.select(".legend_container svg svg"),
     svg = d3.select(".hiveChart_container svg svg"),
     svg2 = d3.select(".hiveChart_container3 svg svg"),
@@ -15,6 +20,7 @@ var tooltip = d3
   .select("body")
   .append("div")
   .attr("class", "toolTip");
+
 
 var formatValue = d3.format(",d");
 
@@ -107,6 +113,17 @@ d3.csv(
       .style("opacity", 1)
       .attr("cx", function(d) { return d.data.y; })
       .attr("cy", function(d) { return d.data.x; });
+    
+                    cell.append("circle")
+      .attr("class", function(d){ return"searchCirc " +  d.data.School.split(" ").join("_")})
+      .attr("r", function(d) { return d.data.Kindergarteners_with_Vaccination / 20; })
+      .style("fill", function(d) { return rectMap_color(d.data.value); })
+      .style("stroke-width", 0.5)
+      .style("opacity", 1)
+    .style("display", "none")
+      .attr("cx", function(d) { return d.data.y; })
+      .attr("cy", function(d) { return d.data.x; })
+    
     
     cell.append("circle")
       .attr("r", function(d) { return d.data.Kindergarteners_with_Vaccination / 20; })
@@ -324,7 +341,17 @@ d3.csv(
       .style("opacity", 1)
       .attr("cx", function(d) { return d.data.y; })
       .attr("cy", function(d) { return d.data.x; });
- 
+                 
+    cell2.append("circle")
+      .attr("class", function(d){ return "searchCirc " + d.data.School.split(" ").join("_")})
+      .attr("r", function(d) { return d.data.Kindergarteners_with_Vaccination / 20; })
+      .style("fill", function(d) { return rectMap_color(d.data.value); })
+      .style("stroke-width", 0.5)
+      .style("opacity", 1)
+    .style("display", "none")
+      .attr("cx", function(d) { return d.data.y; })
+      .attr("cy", function(d) { return d.data.x; })
+    
         cell2.append("circle")
       .attr("class", function(d){ return d.data.Type})
       .attr("r", function(d) { return d.data.Kindergarteners_with_Vaccination / 20; })
@@ -530,17 +557,24 @@ d3.csv(
       .attr("cx", function(d) { return d.data.y; })
       .attr("cy", function(d) { return d.data.x; });
  
+                cell3.append("circle")
+      .attr("class", function(d){ return "searchCirc " + d.data.School.split(" ").join("_")})
+      .attr("r", function(d) { return d.data.Kindergarteners_with_Vaccination / 20; })
+      .style("fill", function(d) { return rectMap_color(d.data.value); })
+      .style("stroke-width", 0.5)
+      .style("opacity", 1)
+    .style("display", "none")
+      .attr("cx", function(d) { return d.data.y; })
+      .attr("cy", function(d) { return d.data.x; })
+    
         cell3.append("circle")
       .attr("class", function(d){ return d.data.Type})
       .attr("r", function(d) { return d.data.Kindergarteners_with_Vaccination / 20; })
       .style("fill", 'rgba(0,0,0,0)')
       .style("stroke-width", 0.5)
-      //.style("stroke", 'rgba(0,0,0,1)')
       .style("opacity", 1)
-      //.attr("display", "none")
       .attr("cx", function(d) { return d.data.y; })
       .attr("cy", function(d) { return d.data.x; })
-
       .on("mousemove", function(d) {
         d3.select(this).style("stroke", 'rgba(0,0,0,1)')
     var w = window.innerWidth;
@@ -564,6 +598,58 @@ d3.csv(
       .on("mouseout", function(d) {
            d3.select(this).style("stroke", 'rgba(0,0,0,0)')
           tooltip.style("display", "none");});
+   
 
   }
 );
+
+
+
+d3.csv(
+  "https://gist.githubusercontent.com/JesseCHowe/0e5388edc13edf1c454446dfdfacb7b9/raw/8037c1461731cb7edf41b4aee2f40b591343e5b6/ve_Vaccination%2520Rates%2520by%2520School.csv",
+  type,
+  function(error5, data5) {
+    if (error5) throw error5;
+    
+    var select = d3.select(".menu div select");
+        select.on("change", function(d) {
+          myFunction()
+      });
+    
+        select.selectAll("option")
+      .data(data5)
+      .enter()
+        .append("option")
+        .attr("value", function (d) { return d.School; })
+        .attr("class", function (d) { return d.School.split(" ").join("_"); })
+        .text(function (d) { return d.School; });
+    
+    
+  }
+);
+
+        function myFunction() {
+          var x = $('select[name="platform"] option:selected').attr('class');
+          console.log(x)
+          d3.selectAll(".searchCirc").style("display", "none")
+                    d3.selectAll("circle").style("opacity", 0.5)
+          d3.selectAll("circle").style("stroke", 'rgba(0,0,0,0)')
+          d3.selectAll("."+x).style("display", "block")
+          d3.selectAll("."+x).style("opacity", 1)
+          d3.selectAll("."+x).style("stroke", 'rgba(0,0,0,1)')
+          
+          d3.csv(
+  "https://gist.githubusercontent.com/JesseCHowe/0e5388edc13edf1c454446dfdfacb7b9/raw/8037c1461731cb7edf41b4aee2f40b591343e5b6/ve_Vaccination%2520Rates%2520by%2520School.csv",
+  type,
+  function(error8, data8) {
+    if (error8) throw error8;
+
+      var x4 = document.getElementById("mySelect").selectedIndex;
+       tooltip2.style("display", "block")
+      .html(function(d) {
+           return "<p><span>"+ 100*(data8[x4].value) + "%</span><span> Vaccination rate | </span><span>"+ 100*(data8[x4].exempt) +"</span><span>% Exemption rate | </span><span>" + Math.abs(Math.round((1000*(data8[x4].value - 0.943))/10))+ "</span>% <span>above the national average</span></p>";
+
+            });
+  }
+);
+        }
