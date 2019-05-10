@@ -158,7 +158,7 @@ d3.csv(
     cell
       .append("circle")
       .attr("class", function(d) {
-        return "searchCirc " + d.data.School.split(" ").join("_");
+        return "lowerLayer searchCirc " + d.data.School.split(" ").join("_");
       })
       .attr("r", function(d) {
         return d.data.Kindergarteners_with_Vaccination / 20;
@@ -268,70 +268,70 @@ function type(d) {
 }
 function showPrivate() {
   if ($(".private_hl").hasClass("active")) {
-    d3.selectAll(".all_hl").style("opacity", 1);
-    d3.selectAll(".Private").style("opacity", 1);
+    d3.selectAll(".all_hl").style("fill-opacity", 1);
+    d3.selectAll(".Private").style("fill-opacity", 1);
     $(".private_hl").removeClass("active");
   } else {
     $(".highlight").removeClass("active");
-    d3.selectAll(".all_hl").style("opacity", 1);
-    d3.selectAll(".lowerLayer").style("opacity", 0.2);
-    d3.selectAll(".Private").style("opacity", 1);
+    d3.selectAll(".all_hl").style("fill-opacity", 1);
+    d3.selectAll(".lowerLayer").style("fill-opacity", 0.2);
+    d3.selectAll(".Private").style("fill-opacity", 1);
     $(".private_hl").addClass("active");
   }
 }
 
 function showOKCity() {
   if ($(".OKCity_hl").hasClass("active")) {
-    d3.selectAll(".all_hl").style("opacity", 1);
-    d3.selectAll(".OKLAHOMA_CITY").style("opacity", 1);
+    d3.selectAll(".all_hl").style("fill-opacity", 1);
+    d3.selectAll(".OKLAHOMA_CITY").style("fill-opacity", 1);
     $(".OKCity_hl").removeClass("active");
   } else {
     $(".highlight").removeClass("active");
-    d3.selectAll(".all_hl").style("opacity", 1);
-    d3.selectAll(".lowerLayer").style("opacity", 0.2);
-    d3.selectAll(".OKLAHOMA_CITY").style("opacity", 1);
+    d3.selectAll(".all_hl").style("fill-opacity", 1);
+    d3.selectAll(".lowerLayer").style("fill-opacity", 0.2);
+    d3.selectAll(".OKLAHOMA_CITY").style("fill-opacity", 1);
     $(".OKCity_hl").addClass("active");
   }
 }
 
 function showTulsa() {
   if ($(".TULSA_hl").hasClass("active")) {
-    d3.selectAll(".all_hl").style("opacity", 1);
-    d3.selectAll(".TULSA").style("opacity", 1);
+    d3.selectAll(".all_hl").style("fill-opacity", 1);
+    d3.selectAll(".TULSA").style("fill-opacity", 1);
     $(".TULSA_hl").removeClass("active");
   } else {
     $(".highlight").removeClass("active");
-    d3.selectAll(".all_hl").style("opacity", 1);
-    d3.selectAll(".lowerLayer").style("opacity", 0.2);
-    d3.selectAll(".TULSA").style("opacity", 1);
+    d3.selectAll(".all_hl").style("fill-opacity", 1);
+    d3.selectAll(".lowerLayer").style("fill-opacity", 0.2);
+    d3.selectAll(".TULSA").style("fill-opacity", 1);
     $(".TULSA_hl").addClass("active");
   }
 }
 
 function showPrivate2() {
   if ($(".private_hl_2").hasClass("active")) {
-    d3.selectAll(".all_hl").style("opacity", 1);
-    d3.selectAll(".Private").style("opacity", 1);
+    d3.selectAll(".all_hl").style("fill-opacity", 1);
+    d3.selectAll(".Private").style("fill-opacity", 1);
     $(".private_hl_2").removeClass("active");
   } else {
     $(".highlight").removeClass("active");
-    d3.selectAll(".all_hl").style("opacity", 1);
-    d3.selectAll(".lowerLayer2").style("opacity", 0.2);
-    d3.selectAll(".Private").style("opacity", 1);
+    d3.selectAll(".all_hl").style("fill-opacity", 1);
+    d3.selectAll(".lowerLayer2").style("fill-opacity", 0.2);
+    d3.selectAll(".Private").style("fill-opacity", 1);
     $(".private_hl_2").addClass("active");
   }
 }
 
 function no_exempion() {
   if ($(".exempt_hl").hasClass("active")) {
-    d3.selectAll(".all_hl").style("opacity", 1);
-    d3.selectAll(".e0").style("opacity", 1);
+    d3.selectAll(".all_hl").style("fill-opacity", 1);
+    d3.selectAll(".e0").style("fill-opacity", 1);
     $(".exempt_hl").removeClass("active");
   } else {
     $(".highlight").removeClass("active");
-    d3.selectAll(".all_hl").style("opacity", 1);
-    d3.selectAll(".lowerLayer3").style("opacity", 0.2);
-    d3.selectAll(".e0").style("opacity", 1);
+    d3.selectAll(".all_hl").style("fill-opacity", 1);
+    d3.selectAll(".lowerLayer3").style("fill-opacity", 0.2);
+    d3.selectAll(".e0").style("fill-opacity", 1);
     $(".exempt_hl").addClass("active");
   }
 }
@@ -460,7 +460,7 @@ d3.csv(
     cell2
       .append("circle")
       .attr("class", function(d) {
-        return "searchCirc " + d.data.School.split(" ").join("_");
+        return "lowerLayer2 searchCirc " + d.data.School.split(" ").join("_");
       })
       .attr("r", function(d) {
         return d.data.Kindergarteners_with_Vaccination / 20;
@@ -758,7 +758,7 @@ d3.csv(
     cell3
       .append("circle")
       .attr("class", function(d) {
-        return "searchCirc " + d.data.School.split(" ").join("_");
+        return "lowerLayer3 searchCirc " + d.data.School.split(" ").join("_");
       })
       .attr("r", function(d) {
         return d.data.Kindergarteners_with_Vaccination / 20;
