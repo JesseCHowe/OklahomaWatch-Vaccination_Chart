@@ -149,3 +149,9 @@ text {
     color: #aaa;
     font-size: 12px;
 }
+
+#mySelect, .text_generate{
+  margin: 0 auto;
+  display: block;
+    margin-bottom: 1.5em;
+}
