@@ -1,0 +1,411 @@
+id,County,District,Type,Kindergarteners_with_Vaccination,exempt,value
+Country Lane Primary ES,Tulsa,Broken Arrow,Public,268,0.04,0.949
+Pratt ES,Tulsa,Sand Springs,Public,59,0,0.949
+Preston ES,Okmulgee,Preston,Public,39,0,0.949
+Wolf Creek ES,Tulsa,Broken Arrow,Public,97,0.03,0.948
+Springdale ES,Tulsa,Tulsa,Public,57,0,0.947
+The Little Light House,Tulsa,"ICAA, AdvancED",Private,19,0,0.947
+Union ES,Kay,Ponca City,Public,38,0,0.947
+Welch ES,Craig,Welch,Public,19,0.05,0.947
+Aspen Creek ES,Tulsa,Broken Arrow,Public,113,0.04,0.947
+Windsor Hills ES,Oklahoma,Putnam City,Public,113,0,0.947
+Central ES (Canadian County),Canadian,Yukon,Public,83,0.01,0.947
+Glenpool ES,Tulsa,Glenpool,Public,220,0.02,0.947
+Leisure Park ES,Tulsa,Broken Arrow,Public,109,0.02,0.947
+Southgate-Rippetoe ES,Cleveland,Moore,Public,75,0.04,0.947
+Eisenhower ES (Garfield County),Garfield,Enid,Public,23,0,0.946
+Nance ES,Custer,Clinton,Public,168,0.03,0.946
+Ridgeview ES ,Oklahoma,Oklahoma City,Public,56,0.02,0.946
+Sooner ES,Cleveland,Moore,Public,55,0.02,0.945
+Bishop Public School,Comanche,Bishop,Public,73,0,0.945
+Prairie ES,Texas,Guymon,Public,73,0,0.945
+Mazie ES,Mayes,Chouteau-Mazie,Public,12,0,0.945
+Eisenhower International ES,Tulsa,Tulsa,Public,115,0.14,0.944
+Hamilton ES,Tulsa,Tulsa,Public,62,0,0.944
+Liberty ES (Broken Arrow District),Tulsa,Broken Arrow,Public,96,0.05,0.944
+Middleberg Public School,Grady,Middleburg,Public,18,0.06,0.944
+Northwest ES (Wagoner County),Wagoner,Coweta,Public,75,0.03,0.944
+Rancho Village ES,Oklahoma,Oklahoma City,Public,54,0,0.944
+Roosevelt ES (Mayes County),Mayes,Pryor,Public,69,0.01,0.944
+Buchanan ES,Oklahoma,Oklahoma City,Public,71,0.01,0.944
+Horace Mann ES (Stephens County),Stephens,Duncan,Public,68,0.01,0.944
+Kansas ES,Delaware,Kansas,Public,55,0,0.944
+Mustang Lakehoma ES,Canadian,Mustang,Public,106,0.02,0.943
+Epic Blended Charter,Oklahoma,N/A,Charter,562,0.21,0.943
+Choctaw ES,Oklahoma,Chocktaw-Nicoma Park,Public,52,0.02,0.943
+Keota ES,Haskell,Keota,Public,31,0,0.943
+Northern Hills ES,Oklahoma,Edmond,Public,114,0.1,0.943
+Prague ES,Lincoln,Prague,Public,87,0.01,0.943
+Stigler ES,Haskell,Stigler,Public,87,0.01,0.943
+Washington ES (Ottawa County),Ottawa,Miami,Public,46,0,0.943
+Mustang Valley ES,Canadian,Mustang,Public,139,0.04,0.942
+Country Estates ES,Oklahoma,Midwest City-Del City,Public,59,0.02,0.942
+Arbor Grove ES,Oklahoma,Putnam City,Public,85,0.01,0.941
+Cotteral ES,Logan,Guthrie,Public,212,0.02,0.941
+John Ross ES,Oklahoma,Edmond,Public,119,0.03,0.941
+Plainview Primary ES,Carter,Plainview,Public,102,0.04,0.941
+Pond Creek-Hunters ES,Grant,Pond Creek-Hunter,Public,17,0,0.941
+Stuart ES,Hughes,Stuart,Public,17,0,0.941
+Timber Ridge ES,Tulsa,Broken Arrow,Public,102,0.03,0.941
+Verden ES,Grady,Verden,Public,17,0.06,0.941
+Woodward Early Childhood Center,Woodward,Woodward,Public,221,0.03,0.941
+Zaneis Public School,Carter,Zaneis,Public,34,0.06,0.941
+Jefferson Heights ES,Creek,Sapulpa,Public,47,0,0.941
+Washington Irving ES (Bryan County),Bryan,Durant,Public,185,0.01,0.941
+Sheldeck ES,Canadian,Yukon,Public,67,0,0.940
+Parkview ES (Lincoln County),Lincoln,Stroud,Public,49,0,0.940
+Rockwood ES,Oklahoma,Oklahoma City,Public,83,0,0.940
+Perry ES,Noble,Perry,Public,66,0,0.939
+Brushy Public School,Sequoyah,Brushy,Public,49,0.04,0.939
+Central High ES,Stephens,Central High,Public,31,0.06,0.939
+Burcham ES,Custer,Weatherford,Public,193,0.01,0.938
+Banner Public School,Canadian,Banner,Public,32,0,0.938
+Cordell ES,Washita,Cordell,Public,42,0,0.938
+Disney ES,Tulsa,Tulsa,Public,83,0,0.938
+E.M. Trout ES,Kay,Ponca City,Public,40,0.03,0.938
+Ethel Reed ES,Hughes,Holdenville,Public,94,0.04,0.938
+Forest Grove Public School,McCurtain,Forest Grove,Public,23,0,0.938
+Gore ES,Sequoyah,Gore,Public,40,0,0.938
+Hawthorne ES (Oklahoma County),Oklahoma,Oklahoma City,Public,67,0.03,0.938
+Holland Hall School,Tulsa,Isas,Private,38,0.05,0.938
+Jackson ES (Oklahoma County),Oklahoma,Oklahoma City,Public,65,0.02,0.938
+Jefferson Early Learning Center,Garvin,Pauls Valley,Public,90,0.01,0.938
+Jennings Public School,Pawnee,Jennings,Public,24,0.04,0.938
+Mill Creek ES,Johnston,Mill Creek,Public,16,0,0.938
+Osage Public School,Mayes,Osage,Public,16,0,0.938
+South Coffeyville ES,Nowata,South Coffeyville,Public,16,0,0.938
+Tupelo ES,Coal,Tupelo,Public,16,0,0.938
+Boevers ES,Tulsa,Union,Public,95,0.02,0.937
+Mitchell ES,Tulsa,Tulsa,Public,63,0,0.937
+Lomega ES,Kingfisher,Lomega,Public,10,0,0.936
+Mustang Trails ES,Canadian,Mustang,Public,157,0,0.936
+Vian ES,Sequoyah,Vian,Public,77,0,0.935
+Vinita ES,Craig,Vinita,Public,77,0.03,0.935
+Nicoma Park ES,Oklahoma,Chocktaw-Nicoma Park,Public,123,0.06,0.935
+Eliot ES,Tulsa,Tulsa,Public,46,0.09,0.935
+Benjamin Franklin Science Academy,Muskogee,Muskogee,Public,61,0.02,0.934
+Heronville ES,Oklahoma,Oklahoma City,Public,74,0,0.934
+Bray-Doyle ES,Stephens,Bray-Doyle,Public,15,0,0.933
+Creek ES,Muskogee,Muskogee,Public,63,0.02,0.933
+Dale ES,Pottawatomie,Dale,Public,55,0,0.933
+Holmes Park ES,Creek,Sapulpa,Public,99,0,0.933
+Irving ES,Muskogee,Muskogee,Public,56,0,0.933
+Konawa ES,Seminole,Konawa,Public,56,0,0.933
+Pioneer Public School,Grady,Pioneer ,Public,45,0.02,0.933
+School of Saint Mary,Tulsa,Occsaa,Private,30,0.07,0.933
+St. James Catholic School,Oklahoma,Occsaa,Private,15,0,0.933
+Telstar ES,Oklahoma,Oklahoma City,Public,30,0,0.933
+Will Rogers ES (Putnam City District),Oklahoma,Putnam City,Public,60,0.03,0.933
+Southern Hills ES,Oklahoma,Oklahoma City,Public,89,0.1,0.933
+Garfield ES (Kay County),Kay,Ponca City,Public,41,0,0.932
+Russell Dougherty ES,Oklahoma,Edmond,Public,44,0.02,0.932
+Tulsa Legacy Charter School,Tulsa,N/A,Charter,73,0,0.932
+Marquette Catholic School,Tulsa,Occsaa,Private,44,0.02,0.931
+Eugene Field ES (Tulsa County),Tulsa,Tulsa,Public,54,0,0.931
+Kelley ES,Cleveland,Moore,Public,39,0,0.931
+Newcastle Early Childhood Center,McClain,Newcastle,Public,174,0.02,0.931
+St. Eugene Catholic School,Oklahoma,Occsaa,Private,29,0.03,0.931
+Heritage Hall School,Oklahoma,Isas,Private,46,0.04,0.931
+Green Pastures ES,Oklahoma,Oklahoma City,Public,28,0,0.930
+Bodine ES,Oklahoma,Oklahoma City,Public,57,0,0.930
+Johnson ES,Oklahoma,Oklahoma City,Public,27,0.04,0.929
+Calvin ES,Hughes,Calvin,Public,16,0,0.929
+Indiahoma ES,Comanche,Indiahoma,Public,12,0,0.929
+Lincoln ES (Cleveland County),Cleveland,Norman,Public,44,0.05,0.929
+Marshall ES (Tulsa County),Tulsa,Tulsa,Public,16,0,0.929
+Quinton ES,Pittsburg,Quinton,Public,28,0,0.929
+Southside ES,Wagoner,Coweta,Public,98,0.06,0.929
+Will Rogers ES (Edmon District),Oklahoma,Edmond,Public,112,0.06,0.929
+Arrowhead ES,Tulsa,Broken Arrow,Public,83,0.05,0.928
+Roosevelt ES (Ottawa County),Ottawa,Miami,Public,46,0.04,0.928
+Darlington Public School,Canadian,Darlington,Public,30,0,0.927
+Maud ES,Pottawatomie,Maud,Public,20,0.1,0.927
+Foyil ES,Rogers,Foyil,Public,34,0,0.927
+Sunset ES (Oklahoma County),Oklahoma,Edmond,Public,109,0.03,0.927
+Boswell ES,Choctaw,Boswell,Public,27,0,0.926
+Felt ES,Cimarron,Felt,Public,11,0,0.926
+Frontier ES (Noble County),Noble,Frontier,Public,27,0,0.926
+Friend Public School,Grady,Friend,Public,31,0.1,0.925
+Highland Park ES (Tulsa County),Tulsa,Broken Arrow,Public,122,0.06,0.924
+Westwood ES (Payne County),Payne,Stillwater,Public,79,0.03,0.924
+Salk ES,Tulsa,Tulsa,Public,92,0.01,0.924
+Casady School,Oklahoma,Isas,Private,30,0,0.923
+Katherine I. Daily ES,Cleveland,NOBLE,Public,177,0.03,0.923
+Moyers ES,Pushmataha,Moyers,Public,13,0,0.923
+Pleasant Hill Early Childhood Center,Oklahoma,Midwest City-Del City,Public,26,0.04,0.923
+Rush Springs ES,Grady,Rush Springs,Public,26,0.04,0.923
+Wheeler ES,Oklahoma,Oklahoma City,Public,52,0,0.923
+Kellyville ES,Creek,Kellyville,Public,58,0.03,0.921
+Washington ES (Comanche County),Comanche,Lawton,Public,38,0,0.921
+Hayes ES (Garfield County),Garfield,Enid,Public,47,0.02,0.921
+Shawnee Early Childhood Center,Pottawatomie,Shawne,Public,263,0.02,0.920
+Cleveland ES (Cleveland County),Cleveland,Norman,Public,96,0.03,0.920
+Northwest ES (Tulsa County),Tulsa,Jenks,Public,180,0.03,0.920
+Whitefield Public School,Haskell,Whitefield,Public,25,0.04,0.920
+Holly Creek Public School,McCurtain,Holly Creek,Public,21,0,0.919
+Skyline ES,Payne,Stillwater,Public,74,0.05,0.919
+Oakridge ES (Cleveland County),Cleveland,Moore,Public,86,0.01,0.919
+Grissom ES,Tulsa,Tulsa,Public,37,0,0.918
+Westminster School,Oklahoma,Isas,Private,61,0,0.918
+Roosevelt ES (Kay County),Kay,Ponca City,Public,54,0.02,0.918
+Aline-Cleo ES,Major,Aline-Cleo,Public,12,0.08,0.917
+Canute ES,Washita,Canute,Public,25,0,0.917
+Comanche ES,Stephens,Comanche,Public,76,0.08,0.917
+Dennis ES,Oklahoma,Putnam City,Public,68,0.06,0.917
+Horace Mann ES (Oklahoma County),Oklahoma,Oklahoma City,Public,48,0.02,0.917
+Immanuel Lutheran Christian Academy,Tulsa,NLSA,Private,13,0.08,0.917
+Luther ES,Oklahoma,Luther,Public,65,0.09,0.917
+Mark Twain ES (Oklahoma County),Oklahoma,Oklahoma City,Public,48,0,0.917
+Paoli ES,Garvin,Paoli,Public,12,0.08,0.917
+St. Paul's Lutheran School,Garfield,NA,Private,12,0.08,0.917
+Sunnybrook Christian School,Payne,ACSI,Private,12,0,0.917
+Trinity Lutheran School,Cleveland,NLSA,Private,12,0.08,0.917
+Sequoyah ES (Tulsa County),Tulsa,Tulsa,Public,83,0,0.916
+Lincoln ES (Mayes County),Mayes,Pryor,Public,111,0,0.915
+Vanoss ES,Pontotoc,Vanoss,Public,47,0.02,0.915
+Parmelee ES,Oklahoma,Oklahoma City,Public,129,0.01,0.915
+Briarwood ES,Cleveland,Moore,Public,82,0,0.915
+Hayes ES (Oklahoma County),Oklahoma,Oklahoma City,Public,63,0,0.914
+Latta ES,Pontotoc,Latta,Public,97,0.01,0.914
+Pioneer Park ES,Comanche,Lawton,Public,58,0,0.914
+Heavener ES,Le Flore,Heavener,Public,52,0,0.914
+Barnsdall ES,Osage,Barnsdall,Public,23,0.09,0.913
+Briggs Public School,Cherokee,Briggs,Public,46,0.07,0.913
+Elgin ES,Comanche,Elgin,Public,138,0.05,0.913
+Midwest City ES,Oklahoma,Midwest City-Del City,Public,138,0.01,0.913
+Oklahoma Virtual Charter Academy ES,Oklahoma,N/A,Charter,99,0.1,0.913
+Strother ES,Seminole,Strother,Public,23,0.04,0.913
+Ward ES,Osage,Shidler,Public,23,0.04,0.913
+Washington ES (Woods County),Woods,Alva,Public,80,0.03,0.913
+Beggs ES,Okmulgee,Beggs,Public,68,0,0.912
+Roosa ES,Rogers,Claremore,Public,45,0,0.911
+Whitman ES,Tulsa,Tulsa,Public,45,0,0.911
+Prairie Queen ES,Oklahoma,Oklahoma City,Public,122,0,0.910
+Andersen ES,Tulsa,Union,Public,55,0.04,0.909
+Bluejacket ES,Craig,Bluejacket,Public,11,0,0.909
+Buffalo Valley ES,Latimer,Buffalo Valley,Public,11,0,0.909
+Dickson ES,Carter,Dickson,Public,97,0.01,0.909
+Fort Gibson Early Learning Center,Muskogee,Fort Gibson,Public,137,0.03,0.909
+Hayward Smith ES,Tulsa,Owasso,Public,70,0.01,0.909
+Kaiser ES,Oklahoma,Oklahoma City,Public,94,0.01,0.909
+Lincoln Christian School,Tulsa,"ICAA, AdvancED",Private,51,0.12,0.909
+Northmoor ES,Cleveland,Moore,Public,44,0,0.909
+Orvis Risner ES,Oklahoma,Edmond,Public,88,0.03,0.909
+Peckham Public School,Kay,Peckham,Public,11,0.09,0.909
+Plato ES,Stephens,Duncan,Public,44,0,0.909
+South Rock Creek Public School,Pottawatomie,South Rock Creek,Public,44,0.02,0.909
+Brantly ES,Pushmataha,Antlers,Public,76,0,0.908
+Pershing ES,Muskogee,Muskogee,Public,65,0,0.908
+Vandever ES,Tulsa,Broken Arrow,Public,65,0.05,0.908
+Warner ES,Muskogee,Warner,Public,65,0,0.908
+Atoka ES,Atoka,Atoka,Public,54,0.04,0.907
+Eugene Field ES (Oklahoma County),Oklahoma,Oklahoma City,Public,67,0.03,0.907
+Jones ES (Tulsa County),Tulsa,Tulsa,Public,41,0,0.907
+Bill Wallace Early Childhood Center,Grady,Chickasha,Public,161,0.03,0.907
+Gracemont ES,Caddo,Gracmont,Public,16,0,0.906
+Hennessey Lower ES,Kingfisher,Hennessey,Public,76,0.01,0.906
+Hillcrest ES,Oklahoma,Oklahoma City,Public,79,0,0.906
+Jefferson ES (Cleveland County),Cleveland,Norman,Public,64,0,0.905
+Macarthur ES,Tulsa,Tulsa,Public,54,0.02,0.905
+Quail Creek ES,Oklahoma,Oklahoma City,Public,63,0.02,0.905
+Ida Freeman ES,Oklahoma,Edmond,Public,73,0.05,0.904
+Dove School of Discovery ES Tulsa,Tulsa,N/A,Charter,47,0.02,0.904
+Highland Park ES (Oklahoma County),Oklahoma,Midwest City-Del City,Public,83,0,0.904
+Chouteau ES,Tulsa,Tulsa,Public,37,0.03,0.904
+Freedom ES (Creek County),Creek,Sapulpa,Public,63,0,0.903
+Kennedy ES,Cleveland,Norman,Public,72,0.06,0.903
+Wister ES,Le Flore,Wister,Public,31,0,0.903
+Art Goad ES,Rogers,Chelsea,Public,72,0.06,0.903
+Nichols Hills ES,Oklahoma,Oklahoma City,Public,72,0.01,0.903
+Cedar Ridge ES,Tulsa,Union,Public,69,0.01,0.902
+Eisenhower ES (Cleveland County),Cleveland,Norman,Public,90,0.02,0.902
+Earlsboro ES,Pottawatomie,Earlsboro,Public,15,0.07,0.902
+Lewis and Clark ES,Tulsa,Tulsa,Public,75,0,0.902
+Spring Creek ES (Oklahoma County),Oklahoma,Deer Creek,Public,122,0.02,0.901
+Skyview ES,Canadian,Yukon,Public,111,0.03,0.901
+Balko ES,Beaver,Balko,Public,10,0,0.900
+Canton ES,Blaine,Canton,Public,26,0,0.900
+Catalayah ES,Rogers,Claremore,Public,62,0.02,0.900
+Chisholm ES (Oklahoma County),Oklahoma,Edmond,Public,114,0.05,0.900
+Earl Harris ES,Oklahoma,Bethany,Public,102,0.06,0.900
+Key ES,Tulsa,Tulsa,Public,38,0,0.900
+Liberty Public School,Sequoyah,Liberty,Public,36,0.06,0.900
+New Lima ES,Seminole,New Lima,Public,30,0,0.900
+Northridge ES,Oklahoma,Putnam City,Public,120,0.03,0.900
+Steed ES,Oklahoma,Midwest City-Del City,Public,80,0.03,0.900
+White Rock Public School,Lincoln,White Rock,Public,10,0,0.900
+Fairland ES,Ottawa,Fairland,Public,62,0.06,0.899
+Nowata ES,Nowata,Nowata,Public,69,0.03,0.899
+Parkview ES (Oklahoma County),Oklahoma,Midwest City-Del City,Public,100,0,0.898
+Apollo ES,Oklahoma,Putnam City,Public,78,0.01,0.897
+Sky Ranch ES,Cleveland,Moore,Public,97,0.01,0.897
+Lexington ES,Cleveland,Liberty,Public,61,0.02,0.896
+Central ES (Sequoyah Couty),Sequoyah,Central,Public,42,0,0.896
+Helen Paul Learning Center,Rogers,Catoosa,Public,139,0.01,0.895
+Varnum ES,Seminole,Varnum,Public,19,0,0.895
+Central ES (Tulsa County),Tulsa,Bixby,Public,220,0.05,0.893
+Frontier ES (Oklahoma County),Oklahoma,Edmond,Public,120,0.06,0.893
+Gatewood ES,Oklahoma,Oklahoma City,Public,21,0,0.893
+McClure ES,Tulsa,Tulsa,Public,81,0.01,0.893
+Ripley ES,Payne,Ripley,Public,28,0.07,0.893
+Wright ES,Tulsa,Tulsa,Public,28,0.04,0.893
+Claremont ES,Rogers,Claremore,Public,75,0,0.892
+Grimes ES,Tulsa,Tulsa,Public,26,0,0.892
+First Lutheran School,Kay,NLSA,Private,20,0.05,0.891
+Heritage ES (Oklahoma County),Oklahoma,Edmond,Public,109,0.07,0.891
+Timber Creek ES,Cleveland,Moore,Public,82,0.04,0.890
+Bearden Public School,Okfuskee,Bearden,Public,18,0.06,0.889
+Creekwood ES,Tulsa,Broken Arrow,Public,92,0,0.889
+Edwards ES,Oklahoma,Oklahoma City,Public,41,0,0.889
+Freedom ES (Comanche County),Comanche,Lawton,Public,186,0.02,0.889
+John W Rex Charter Elementary,Oklahoma,N/A,Charter,85,0.02,0.889
+Lake Park ES,Oklahoma,Putnam City,Public,46,0,0.889
+Mcauliffe ES,Tulsa,Union,Public,109,0,0.889
+Mountain View-Gotebo ES,Kiowa,Mountain View-Gotebo,Public,18,0,0.889
+Richard Kane ES,Washington,Bartlesville,Public,81,0.01,0.889
+Tishomingo ES,Johnston,Tishomingo,Public,63,0.02,0.889
+Truman Primary School,Cleveland,Norman,Public,117,0.08,0.889
+Wiley Post ES,Oklahoma,Putnam City,Public,81,0.02,0.889
+Ator ES,Tulsa,Owasso,Public,80,0.06,0.888
+Deborah Brown Community School,Tulsa,N/A,Charter,80,0,0.888
+Northwoods Fine Arts Academy,Tulsa,Sand Springs,Public,80,0,0.888
+Washington ES (Cleveland County),Cleveland,Norman,Public,87,0.05,0.888
+Haileyville ES,Pittsburg,Haileyville,Public,18,0,0.887
+Wilson ES (Oklahoma County),Oklahoma,Oklahoma City,Public,62,0.06,0.887
+Rosa Parks ES,Tulsa,Union,Public,115,0,0.887
+Sadler Arts Academy,Muskogee,Muskogee,Public,44,0.02,0.886
+Silo ES,Bryan,Silo,Public,87,0.02,0.885
+Capitol Hill ES,Oklahoma,Oklahoma City,Public,72,0,0.885
+Sulphur ES,Murray,Sulphur,Public,104,0.01,0.885
+Tuttle Early Childhood Center,Grady,Tuttle,Public,121,0.05,0.884
+Oakdale Public School,Oklahoma,Oakdale,Public,77,0.04,0.883
+Francis ES,Pontotoc,Byng,Public,41,0.07,0.882
+Central ES (Oklahoma County),Oklahoma,Putnam City,Public,81,0.01,0.881
+Lane Public School,Atoka,Lane,Public,25,0,0.880
+Roland ES,Sequoyah,Roland,Public,50,0,0.880
+John D Moeller ES,Kiowa,Snyder,Public,32,0,0.879
+Richmond ES,Payne,Stillwater,Public,66,0.08,0.879
+Mills ES,Tulsa,Owasso,Public,74,0.01,0.878
+Greenwood ES,Cherokee,Tahlequah,Public,92,0,0.876
+Cleveland Bailey ES,Oklahoma,Midwest City-Del City,Public,50,0.02,0.875
+Lookeba-Sickles ES,Caddo,Lookeba Sickles,Public,15,0,0.875
+North Highland ES,Oklahoma,Oklahoma City,Public,40,0.05,0.875
+Turpin ES,Beaver,Turpin,Public,32,0,0.875
+Webbers Falls ES,Muskogee,Webber Falls,Public,16,0.06,0.875
+Central ES (Cleveland County),Cleveland,Moore,Public,75,0,0.874
+Prairie Vale ES,Oklahoma,Deer Creek,Public,102,0.04,0.873
+Wilson ES (Cleveland County),Cleveland,Norman,Public,47,0.06,0.872
+Anderson ES,Tulsa,Tulsa,Public,39,0.03,0.872
+Pamela Hodson ES,Tulsa,Owasso,Public,70,0.06,0.871
+Cesar Chavez ES,Oklahoma,Oklahoma City,Public,109,0,0.871
+Clark ES,Tulsa,Union,Public,99,0,0.871
+McKinley ES (Garfield County),Garfield,Enid,Public,56,0.07,0.871
+Angus Valley ES,Tulsa,Sand Springs,Public,85,0.05,0.871
+Western Oaks ES,Oklahoma,Putnam City,Public,108,0.03,0.870
+Apple Creek ES,Cleveland,Moore,Public,77,0.04,0.870
+Caddo ES,Bryan,Caddo,Public,21,0.1,0.870
+Empire ES,Stephens,Empire,Public,35,0.03,0.870
+Panama ES,Le Flore,Panama,Public,46,0,0.870
+Rollingwood ES,Oklahoma,Putnam City,Public,69,0.03,0.870
+Townsend ES,Oklahoma,Midwest City-Del City,Public,61,0,0.869
+Community Christian School,Cleveland,"ACTS, AdvancED",Private,39,0.13,0.868
+Depew ES,Creek,Depew,Public,22,0.05,0.868
+Highland Park ES (Payne County),Payne,Stillwater,Public,98,0.01,0.867
+Darnaby ES,Tulsa,Union,Public,89,0.01,0.867
+Earlywine ES,Cleveland,Moore,Public,57,0,0.867
+Lone Star Public School,Creek,Lone Star,Public,103,0.02,0.867
+Rockdale ES,Ottawa,Miami,Public,45,0.04,0.867
+Whitebead Public School,Garvin,Whitebead,Public,45,0,0.867
+Elmore City-Pernell ES,Garvin,Elmore City-Pernell,Public,25,0,0.866
+Eufaula ES,McIntosh,Eufaula,Public,96,0.06,0.866
+Collinsville Early Childhood Center,Tulsa,Collinsville,Public,207,0,0.865
+Kiowa ES,Pittsburg,Kiowa,Public,16,0,0.865
+Broadmoore ES,Cleveland,Moore,Public,102,0.07,0.863
+Adams ES (Comanche County),Comanche,Lawton,Public,29,0,0.862
+Ringwood ES,Major,Ringwood,Public,29,0,0.862
+South Lake ES,Cleveland,Moore,Public,94,0.05,0.862
+Kendall-Whittier ES,Tulsa,Tulsa,Public,114,0.03,0.861
+Crowder ES,Pittsburg,Crowder,Public,26,0,0.861
+Peary ES,Tulsa,Tulsa,Public,64,0,0.859
+Grove Public School,Pottawatomie,Grove,Public,56,0.04,0.859
+Deer Creek-Lamont ES,Grant,Deer Creek-Lamont,Public,13,0,0.859
+Soldier Creek ES,Oklahoma,Midwest City-Del City,Public,99,0.05,0.859
+Cache Primary ES,Comanche,Cache,Public,123,0,0.857
+Santa Fe ES,Cleveland,Moore,Public,49,0.04,0.857
+Stone Canyon ES,Tulsa,Owasso,Public,112,0.07,0.857
+Crossings Christian School,Oklahoma,ACSI,Private,79,0.05,0.855
+Sangre Ridge ES,Payne,Stillwater,Public,96,0.03,0.854
+Tushka ES,Atoka,Tushka,Public,34,0,0.853
+Spring Creek ES (Tulsa County),Tulsa,Broken Arrow,Public,81,0.09,0.852
+Hammon ES,Roger Mills,Hammon,Public,18,0,0.852
+Heritage Trails ES,Cleveland,Moore,Public,72,0.11,0.851
+Dove Science Academy ES,Oklahoma,N/A,Charter,49,0,0.851
+Washington Irving ES (Oklahoma County),Oklahoma,Edmond,Public,127,0.05,0.850
+Cleveland Primary ES,Pawnee,Cleveland,Public,104,0.01,0.850
+Copan ES,Washington,Copan,Public,16,0,0.850
+Council Grove ES,Oklahoma,Western Heights,Public,69,0,0.850
+Eagletown ES,McCurtain,Eagletown,Public,10,0,0.850
+Frink-Chambers Public School,Pittsburg,Frink-Chambers,Public,53,0,0.850
+Glenwood ES,Garfield,Enid,Public,75,0,0.850
+Riverside Public School,Canadian,Riverside,Public,20,0.05,0.850
+Whittier ES (Muskogee County),Muskogee,Muskogee,Public,40,0,0.850
+Winding Creek ES,Cleveland,Moore,Public,100,0.02,0.850
+Oklahoma Connections Academy ES,Oklahoma,N/A,Charter,52,0.21,0.848
+Elk City ES,Beckham,Elk City,Public,144,0,0.848
+Red Oak ES,Cleveland,Moore,Public,59,0.02,0.847
+Barnes ES (Tulsa County),Tulsa,Owasso,Public,91,0.03,0.846
+Del City ES,Oklahoma,Midwest City-Del City,Public,96,0,0.846
+Greystone ES,Oklahoma,Oklahoma City,Public,89,0,0.846
+Lukfata Public School,McCurtain,Lukfata,Public,33,0.03,0.846
+Chattanooga ES,Comanche,Chattanooga,Public,19,0,0.844
+Westwood ES (Oklahoma County),Oklahoma,Oklahoma City,Public,51,0,0.843
+Carriage Hills ES,Comanche,Lawton,Public,42,0,0.842
+Cherokee ES (Cherokee County),Cherokee,Tahlequah,Public,90,0,0.842
+Tony Goetz ES,Muskogee,Muskogee,Public,44,0,0.841
+Victory Christian School,Tulsa,"ICAA, AdvancED",Private,44,0.23,0.841
+Lakeview ES,Cleveland,Norman,Public,27,0.07,0.840
+Cherokee ES (Alfalfa County),Alfalfa,Cherokee,Public,36,0,0.838
+Monroe ES (Garfield County),Garfield,Enid,Public,58,0,0.836
+Amber-Pocasset ES,Grady,Amber-Pocasset,Public,30,0.03,0.833
+Mayo Demonstration ES,Tulsa,Tulsa,Public,55,0.04,0.833
+Skelly ES,Tulsa,Tulsa,Public,108,0,0.833
+St. Charles Borromeo Catholic School,Oklahoma,Occsaa,Private,18,0,0.833
+Wright Christian Academy,Tulsa,ACSI,Private,12,0,0.833
+Wayland Bonds ES,Cleveland,Moore,Public,59,0.03,0.831
+Schwartz ES,Oklahoma,Midwest City-Del City,Public,47,0.09,0.830
+ECDC Bunche,Tulsa,Tulsa,Public,76,0.01,0.828
+Holy Family Cathedral School,Tulsa,Occsaa,Private,15,0.07,0.828
+Dahlonegah Public School,Adair,Dahlonegah,Public,15,0,0.826
+Stone Ridge ES,Canadian,Piedmont,Public,115,0.01,0.826
+Blanchard ES,McClain,Blanchard,Public,132,0.05,0.826
+Dewey ES,Washington,Dewey,Public,78,0.03,0.824
+Yale ES,Payne,Yale,Public,28,0.07,0.821
+Cottonwood Public School,Coal,Cottonwood,Public,20,0.15,0.821
+Edison ES (Greer County),Greer,Mangum,Public,54,0.02,0.821
+Robertson ES,Tulsa,Tulsa,Public,61,0,0.820
+Cleora Public School,Delaware,Cleora,Public,16,0,0.818
+Fargo ES,Ellis,Fargo,Public,16,0,0.818
+Moseley Public School,Delaware,Moseley,Public,22,0.05,0.818
+Ryal Public School,McIntosh,Ryal,Public,11,0,0.818
+Keystone Public School,Tulsa,Keystone,Public,30,0.07,0.817
+Hoover ES (Garfield County),Garfield,Enid,Public,57,0,0.817
+Lawton Christian School,Comanche,ACTS,Private,18,0,0.816
+Kiefer ES,Creek,Kiefer,Public,71,0.04,0.815
+Ralph Downs ES,Oklahoma,Putnam City,Public,65,0.02,0.815
+ES Burroughs ES,Tulsa,Tulsa,Public,41,0,0.815
+Tinker ES,Oklahoma,Midwest City-Del City,Public,91,0.03,0.813
+Geronimo ES,Comanche,Geronimo,Public,28,0,0.813
+FanShawe Public School,Le Flore,Fanshawe,Public,11,0,0.813
+Shady Point Public School,Le Flore,Shady Point,Public,21,0,0.810
+Sunset ES (Caddo County),Caddo,Anadarko,Public,126,0,0.810
+Oologah-Talala Lower ES,Rogers,Oologah-Talala,Public,131,0.08,0.809
+Binger-Oney ES,Caddo,Binger-Oney,Public,26,0,0.808
+Sterling ES,Comanche,Sterling,Public,26,0.08,0.808
+Academy Central ES,Tulsa,Tulsa,Public,62,0.02,0.806
+Peters ES,Tulsa,Union,Public,72,0.03,0.806
+Jones ES (Oklahoma County),Oklahoma,Joes,Public,85,0.02,0.805
+Pat Henry ES,Comanche,Lawton,Public,87,0,0.805
+Limestone ES,Tulsa,Sand Springs,Public,50,0,0.804
+Fillmore ES,Oklahoma,Oklahoma City,Public,108,0.01,0.800
+Patrick Henry ES,Tulsa,Tulsa,Public,65,0.06,0.800
+"Special Care, Inc.",Oklahoma,AdvancED,Private,20,0.05,0.800
