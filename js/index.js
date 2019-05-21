@@ -255,7 +255,7 @@ d3.csv(
       .attr("y", 155)
       .attr("class", "movie-labels")
       .style("text-anchor", "start")
-      .html("95% (Herd Immunity)");
+      .html("95%");
   }
 );
 
