@@ -50,7 +50,7 @@ var g4 = svg4
   .attr("transform", "translate(" + margin.left + "," + 0 + ")");
 
 d3.csv(
-  "https://gist.githubusercontent.com/JesseCHowe/4c306a79bff159bd2f3e62334d40693b/raw/5da0412bb6a71d87dd48a107674e675cfe1f03bf/Vac_aboveavg.csv",
+  "https://raw.githubusercontent.com/JesseCHowe/OklahomaWatch-Vaccination_Chart/master/data/Vaccination%20Rates%20by%20School%20-%20above%20ninety%20five.csv",
   type,
   function(error, data) {
     if (error) throw error;
@@ -71,7 +71,7 @@ d3.csv(
       .force(
         "collision",
         d3.forceCollide().radius(function(d) {
-          return d.Kindergarteners_with_Vaccination / 19;
+          return d.Kindergarteners_with_Vaccination_Record / 19;
         })
       )
       .stop();
@@ -122,9 +122,7 @@ d3.csv(
             return d.x;
           })
           .polygons(
-            data.filter(function(d) {
-              return d.value >= 0.95;
-            })
+            data
           )
       )
       .enter()
@@ -141,7 +139,7 @@ d3.csv(
         );
       })
       .attr("r", function(d) {
-        return d.data.Kindergarteners_with_Vaccination / 20;
+        return d.data.Kindergarteners_with_Vaccination_Record / 20;
       })
       .style("fill", function(d) {
         return rectMap_color(d.data.value);
@@ -158,10 +156,10 @@ d3.csv(
     cell
       .append("circle")
       .attr("class", function(d) {
-        return "lowerLayer searchCirc " + d.data.School.split(" ").join("_");
+        return "lowerLayer searchCirc " + d.data.id.split(" ").join("_");
       })
       .attr("r", function(d) {
-        return d.data.Kindergarteners_with_Vaccination / 20;
+        return d.data.Kindergarteners_with_Vaccination_Record / 20;
       })
       .style("fill", function(d) {
         return rectMap_color(d.data.value);
@@ -179,7 +177,7 @@ d3.csv(
     cell
       .append("circle")
       .attr("r", function(d) {
-        return d.data.Kindergarteners_with_Vaccination / 20;
+        return d.data.Kindergarteners_with_Vaccination_Record / 20;
       })
       .style("fill", "rgba(0,0,0,0)")
       .style("stroke-width", 0.5)
@@ -198,29 +196,29 @@ d3.csv(
           .style("display", "inline-block")
           .html(
             "<b>" +
-              d.data.School +
+              d.data.id +
               "</b><br/>" +
               "<b>" +
-              d.data.value * 100 +
+              (10000 * d.data.value) / 100 +
               "%" +
               "</b>" +
               " Vaccination Rate" +
               "<br/>" +
               "<b>" +
-              d.data.exempt * 100 +
+              (10000 * d.data["Exempt Rate"]) / 100 +
               "%" +
               "</b>" +
-              " Exmemption Rate" +
+              " Exemption Rate" +
               "<br/>" +
-              "<div class='tool_lighten'><em>School Size:" +
-              d.data.Kindergarteners_with_Vaccination +
+              "<div class='tool_lighten'><em>Kindergartners:" +
+              d.data.Kindergarteners_with_Vaccination_Record +
               "" +
               "<br/>" +
               d.data.District +
               " schools district; " +
               d.data.id +
               " county; " +
-              d.data.Type +
+              d.data["School Type"] +
               "</em></div>"
           );
         if (d3.event.pageX < w / 2) {
@@ -322,6 +320,34 @@ function showPrivate2() {
   }
 }
 
+function showPublic2() {
+  if ($(".public_hl_2").hasClass("active")) {
+    d3.selectAll(".all_hl").style("fill-opacity", 1);
+    d3.selectAll(".Public").style("fill-opacity", 1);
+    $(".public_hl_2").removeClass("active");
+  } else {
+    $(".highlight").removeClass("active");
+    d3.selectAll(".all_hl").style("fill-opacity", 1);
+    d3.selectAll(".lowerLayer2").style("fill-opacity", 0.2);
+    d3.selectAll(".Public").style("fill-opacity", 1);
+    $(".public_hl_2").addClass("active");
+  }
+}
+
+
+function showCharter2() {
+  if ($(".charter_hl_2").hasClass("active")) {
+    d3.selectAll(".all_hl").style("fill-opacity", 1);
+    d3.selectAll(".Charter").style("fill-opacity", 1);
+    $(".charter_hl_2").removeClass("active");
+  } else {
+    $(".highlight").removeClass("active");
+    d3.selectAll(".all_hl").style("fill-opacity", 1);
+    d3.selectAll(".lowerLayer2").style("fill-opacity", 0.2);
+    d3.selectAll(".Charter").style("fill-opacity", 1);
+    $(".charter_hl_2").addClass("active");
+  }
+}
 function no_exempion() {
   if ($(".exempt_hl").hasClass("active")) {
     d3.selectAll(".all_hl").style("fill-opacity", 1);
@@ -337,12 +363,12 @@ function no_exempion() {
 }
 
 d3.csv(
-  "https://gist.githubusercontent.com/JesseCHowe/33676361422c298988b0d0bfef627085/raw/2395b4bdc215ca4258118d16be1f7a3dc19ef85c/vac_rate_med.csv",
+  "https://raw.githubusercontent.com/JesseCHowe/OklahomaWatch-Vaccination_Chart/master/data/Vaccination%20Rates%20by%20School%20-%20above%20eighty.csv",
   type,
   function(error2, data2) {
     if (error2) throw error2;
 
-    x2 = x2.domain([0.95, 0.79]);
+    x2 = x2.domain([0.955, 0.79]);
 
     var simulation2 = d3
       .forceSimulation(data2)
@@ -358,7 +384,7 @@ d3.csv(
       .force(
         "collision",
         d3.forceCollide().radius(function(d) {
-          return d.Kindergarteners_with_Vaccination / 19;
+          return d.Kindergarteners_with_Vaccination_Record / 19;
         })
       )
       .stop();
@@ -440,10 +466,10 @@ d3.csv(
     cell2
       .append("circle")
       .attr("class", function(d) {
-        return "all_hl lowerLayer2 " + d.data.Type;
+        return "all_hl lowerLayer2 " + d.data["School Type"];
       })
       .attr("r", function(d) {
-        return d.data.Kindergarteners_with_Vaccination / 20;
+        return d.data.Kindergarteners_with_Vaccination_Record / 20;
       })
       .style("fill", function(d) {
         return rectMap_color(d.data.value);
@@ -460,10 +486,10 @@ d3.csv(
     cell2
       .append("circle")
       .attr("class", function(d) {
-        return "lowerLayer2 searchCirc " + d.data.School.split(" ").join("_");
+        return "lowerLayer2 searchCirc " + d.data.id.split(" ").join("_");
       })
       .attr("r", function(d) {
-        return d.data.Kindergarteners_with_Vaccination / 20;
+        return d.data.Kindergarteners_with_Vaccination_Record / 20;
       })
       .style("fill", function(d) {
         return rectMap_color(d.data.value);
@@ -484,7 +510,7 @@ d3.csv(
         return d.data.Type;
       })
       .attr("r", function(d) {
-        return d.data.Kindergarteners_with_Vaccination / 20;
+        return d.data.Kindergarteners_with_Vaccination_Record / 20;
       })
       .style("fill", "rgba(0,0,0,0)")
       .style("stroke-width", 0.5)
@@ -506,29 +532,29 @@ d3.csv(
           .style("display", "inline-block")
           .html(
             "<b>" +
-              d.data.School +
+              d.data.id +
               "</b><br/>" +
               "<b>" +
-              d.data.value * 100 +
+              (10000 * d.data.value) / 100 +
               "%" +
               "</b>" +
               " Vaccination Rate" +
               "<br/>" +
               "<b>" +
-              d.data.exempt * 100 +
+              (10000 * d.data["Exempt Rate"]) / 100 +
               "%" +
               "</b>" +
-              " Exmemption Rate" +
+              " Exemption Rate" +
               "<br/>" +
-              "<div class='tool_lighten'><em>School Size:" +
-              d.data.Kindergarteners_with_Vaccination +
+              "<div class='tool_lighten'><em>Kindergartners:" +
+              d.data.Kindergarteners_with_Vaccination_Record +
               "" +
               "<br/>" +
               d.data.District +
               " schools district; " +
               d.data.id +
               " county; " +
-              d.data.Type +
+              d.data["School Type"] +
               "</em></div>"
           );
         if (d3.event.pageX < w / 2) {
@@ -546,7 +572,7 @@ d3.csv(
 );
 
 d3.csv(
-  "https://gist.githubusercontent.com/JesseCHowe/eeb6b6022387ca757d4ac9ef820429ac/raw/5b43db1917ccca03f292cc4118f2d408e991f239/vac_rate_low.csv",
+  "https://raw.githubusercontent.com/JesseCHowe/OklahomaWatch-Vaccination_Chart/master/data/Vaccination%20Rates%20by%20School%20-%20below%20eighty.csv",
   type,
   function(error3, data3) {
     if (error3) throw error3;
@@ -567,7 +593,7 @@ d3.csv(
       .force(
         "collision",
         d3.forceCollide().radius(function(d) {
-          return d.Kindergarteners_with_Vaccination / 19;
+          return d.Kindergarteners_with_Vaccination_Record / 19;
         })
       )
       .stop();
@@ -738,10 +764,10 @@ d3.csv(
     cell3
       .append("circle")
       .attr("class", function(d) {
-        return "all_hl lowerLayer3 " + d.data.Type + " e" + d.data.exempt;
+        return "all_hl lowerLayer3 " + d.data.Type + " e" + d.data["Exempt Rate"];
       })
       .attr("r", function(d) {
-        return d.data.Kindergarteners_with_Vaccination / 20;
+        return d.data.Kindergarteners_with_Vaccination_Record / 20;
       })
       .style("fill", function(d) {
         return rectMap_color(d.data.value);
@@ -758,10 +784,10 @@ d3.csv(
     cell3
       .append("circle")
       .attr("class", function(d) {
-        return "lowerLayer3 searchCirc " + d.data.School.split(" ").join("_");
+        return "lowerLayer3 searchCirc " + d.data.id.split(" ").join("_");
       })
       .attr("r", function(d) {
-        return d.data.Kindergarteners_with_Vaccination / 20;
+        return d.data.Kindergarteners_with_Vaccination_Record / 20;
       })
       .style("fill", function(d) {
         return rectMap_color(d.data.value);
@@ -782,7 +808,7 @@ d3.csv(
         return d.data.Type;
       })
       .attr("r", function(d) {
-        return d.data.Kindergarteners_with_Vaccination / 20;
+        return d.data.Kindergarteners_with_Vaccination_Record / 20;
       })
       .style("fill", "rgba(0,0,0,0)")
       .style("stroke-width", 0.5)
@@ -801,29 +827,29 @@ d3.csv(
           .style("display", "inline-block")
           .html(
             "<b>" +
-              d.data.School +
+              d.data.id +
               "</b><br/>" +
               "<b>" +
-              d.data.value * 100 +
+              (10000 * d.data.value) / 100 +
               "%" +
               "</b>" +
               " Vaccination Rate" +
               "<br/>" +
               "<b>" +
-              d.data.exempt * 100 +
+              (10000 * d.data["Exempt Rate"]) / 100 +
               "%" +
               "</b>" +
-              " Exmemption Rate" +
+              " Exemption Rate" +
               "<br/>" +
-              "<div class='tool_lighten'><em>School Size:" +
-              d.data.Kindergarteners_with_Vaccination +
+              "<div class='tool_lighten'><em>Kindergartners:" +
+              d.data.Kindergarteners_with_Vaccination_Record +
               "" +
               "<br/>" +
               d.data.District +
               " schools district; " +
               d.data.id +
               " county; " +
-              d.data.Type +
+              d.data["School Type"] +
               "</em></div>"
           );
         if (d3.event.pageX < w / 2) {
@@ -841,7 +867,7 @@ d3.csv(
 );
 
 d3.csv(
-  "https://gist.githubusercontent.com/JesseCHowe/0e5388edc13edf1c454446dfdfacb7b9/raw/8037c1461731cb7edf41b4aee2f40b591343e5b6/ve_Vaccination%2520Rates%2520by%2520School.csv",
+  "https://raw.githubusercontent.com/JesseCHowe/OklahomaWatch-Vaccination_Chart/master/data/Vaccination%20Rates%20by%20School%20-%20generate%20text.csv",
   type,
   function(error5, data5) {
     if (error5) throw error5;
@@ -857,19 +883,19 @@ d3.csv(
       .enter()
       .append("option")
       .attr("value", function(d) {
-        return d.School;
+        return d.id;
       })
       .attr("class", function(d) {
-        return d.School.split(" ").join("_");
+        return d.id.split(" ").join("_");
       })
       .text(function(d) {
-        return d.School;
+        return d.id;
       });
   }
 );
 
 d3.csv(
-  "https://gist.githubusercontent.com/JesseCHowe/0e5388edc13edf1c454446dfdfacb7b9/raw/8037c1461731cb7edf41b4aee2f40b591343e5b6/ve_Vaccination%2520Rates%2520by%2520School.csv",
+  "https://raw.githubusercontent.com/JesseCHowe/OklahomaWatch-Vaccination_Chart/master/data/Vaccination%20Rates%20by%20School%20-%20generate%20text.csv",
   type,
   function(error8, data8) {
     if (error8) throw error8;
@@ -880,9 +906,7 @@ d3.csv(
           "--" +
           "%</span><span> Vaccination rate</span><span class='num'> | </span><span class='num'>" +
           "--"+
-          "%</span><span> Exemption rate</span><span class='num'> | </span><span class='num'>" +
-          "--" +
-          "%</span> <span>above the national average</span></p>"
+          "%</span><span> Exemption rate</span></p>"
       );
     });
   }
@@ -899,7 +923,7 @@ function myFunction() {
   d3.selectAll("." + x).style("stroke", "rgba(0,0,0,1)");
 
   d3.csv(
-    "https://gist.githubusercontent.com/JesseCHowe/0e5388edc13edf1c454446dfdfacb7b9/raw/8037c1461731cb7edf41b4aee2f40b591343e5b6/ve_Vaccination%2520Rates%2520by%2520School.csv",
+    "https://raw.githubusercontent.com/JesseCHowe/OklahomaWatch-Vaccination_Chart/master/data/Vaccination%20Rates%20by%20School%20-%20generate%20text.csv",
     type,
     function(error8, data8) {
       if (error8) throw error8;
@@ -911,9 +935,7 @@ function myFunction() {
           100 * data8[x4].value +
           "%</span><span> Vaccination rate</span><span class='num'> | </span><span class='num'>" +
           100 * data8[x4].exempt +
-          "%</span><span> Exemption rate</span><span class='num'> | </span><span class='num "+data8[x4].perc_national_avg_simple+"'>" +
-          Math.abs(Math.round(1000 * (data8[x4].value - 0.943) / 10)) +
-          "%</span> <span>"+data8[x4].perc_national_avg_simple+" the national average</span></p>"
+          "%</span><span> Exemption rate</span></p>"
         );
       
       });
