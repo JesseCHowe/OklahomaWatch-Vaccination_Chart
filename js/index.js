@@ -215,7 +215,7 @@ d3.csv(
               "" +
               "<br/>" +
               d.data.District +
-              " schools district; " +
+              " school district; " +
               d.data.id +
               " county; " +
               d.data["School Type"] +
@@ -551,7 +551,7 @@ d3.csv(
               "" +
               "<br/>" +
               d.data.District +
-              " schools district; " +
+              " school district; " +
               d.data.id +
               " county; " +
               d.data["School Type"] +
@@ -846,7 +846,7 @@ d3.csv(
               "" +
               "<br/>" +
               d.data.District +
-              " schools district; " +
+              " school district; " +
               d.data.id +
               " county; " +
               d.data["School Type"] +
@@ -932,9 +932,9 @@ function myFunction() {
       tooltip2.style("display", "block").html(function(d) {
         return (
           "<p><span class='num numBig'>" +
-          100 * data8[x4].value +
+          (10000 * data8[x4].value)/100 +
           "%</span><span> Vaccination rate</span><span class='num'> | </span><span class='num'>" +
-          100 * data8[x4].exempt +
+          (10000 * data8[x4]["Exempt Rate"])/100 +
           "%</span><span> Exemption rate</span></p>"
         );
       
